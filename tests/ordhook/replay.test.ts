@@ -25,7 +25,7 @@ describe('Replay', () => {
       .streamingBlocks(true)
       .apply()
       .block({
-        height: 767430,
+        height: 1,
         hash: '0x163de66dc9c0949905bfe8e148bde04600223cf88d19f26fdbeba1d6e6fa0f88',
         timestamp: 1676913207,
       })

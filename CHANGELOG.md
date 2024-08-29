@@ -1317,7 +1317,7 @@
 * expand int column sizes ([0e425ff](https://github.com/hirosystems/ordinals-api/commit/0e425ff42aa0f58c0203f4483acb1114f0e604e5))
 * increase out-of-order log level to error ([#42](https://github.com/hirosystems/ordinals-api/issues/42)) ([56ca661](https://github.com/hirosystems/ordinals-api/commit/56ca6610fe707080272274d60672a65574547fa2))
 * inscription number filtering ([adb5cf6](https://github.com/hirosystems/ordinals-api/commit/adb5cf6155a724c229e008a23d6dad15091eaa9e))
-* set starting block height to 767430 ([84ce95e](https://github.com/hirosystems/ordinals-api/commit/84ce95ede9b6905c69eaff354a7ac331a5a4605a))
+* set starting block height to 1 ([84ce95e](https://github.com/hirosystems/ordinals-api/commit/84ce95ede9b6905c69eaff354a7ac331a5a4605a))
 * use bignumber.js for sat percentiles ([8914e27](https://github.com/hirosystems/ordinals-api/commit/8914e27d4215470f9bea9a1f1e5339ffe38c31d0))
 * use materialized view total count correctly ([#64](https://github.com/hirosystems/ordinals-api/issues/64)) ([939f6b9](https://github.com/hirosystems/ordinals-api/commit/939f6b987202f4c554aedc36a766f41f51bae434))
 * use pre-calculated inscription count for unfiltered results ([#48](https://github.com/hirosystems/ordinals-api/issues/48)) ([3e7a4f4](https://github.com/hirosystems/ordinals-api/commit/3e7a4f41b0429a26cca1c1af544fff90ed8a3c33))
@@ -1390,7 +1390,7 @@
 
 ### Bug Fixes
 
-* set starting block height to 767430 ([84ce95e](https://github.com/hirosystems/ordinals-api/commit/84ce95ede9b6905c69eaff354a7ac331a5a4605a))
+* set starting block height to 1 ([84ce95e](https://github.com/hirosystems/ordinals-api/commit/84ce95ede9b6905c69eaff354a7ac331a5a4605a))
 
 ## [0.1.0-beta.4](https://github.com/hirosystems/ordinals-api/compare/v0.1.0-beta.3...v0.1.0-beta.4) (2023-03-08)
 

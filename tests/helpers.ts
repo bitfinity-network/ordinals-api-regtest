@@ -193,8 +193,8 @@ export function* incrementing(
   }
 }
 
-export const BRC20_GENESIS_BLOCK = 779832;
-export const BRC20_SELF_MINT_ACTIVATION_BLOCK = 837090;
+export const BRC20_GENESIS_BLOCK = 1;
+export const BRC20_SELF_MINT_ACTIVATION_BLOCK = 1;
 
 export async function deployAndMintPEPE(db: PgStore, address: string) {
   await db.updateInscriptions(

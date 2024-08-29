@@ -62,7 +62,7 @@ describe('EventServer', () => {
       const payload1 = new TestChainhookPayloadBuilder()
         .apply()
         .block({
-          height: 767430,
+          height: 1,
           hash: '0x163de66dc9c0949905bfe8e148bde04600223cf88d19f26fdbeba1d6e6fa0f88',
           timestamp: 1676913207,
         })
@@ -97,7 +97,7 @@ describe('EventServer', () => {
       expect(inscr.genesis_block_hash).toBe(
         '163de66dc9c0949905bfe8e148bde04600223cf88d19f26fdbeba1d6e6fa0f88'
       );
-      expect(inscr.genesis_block_height).toBe('767430');
+      expect(inscr.genesis_block_height).toBe('1');
       expect(inscr.genesis_fee).toBe('3425');
       expect(inscr.genesis_id).toBe(
         '0268dd9743c862d80ab02cb1d0228036cfe172522850eb96be60cfee14b31fb8i0'
@@ -126,7 +126,7 @@ describe('EventServer', () => {
       const payload2 = new TestChainhookPayloadBuilder()
         .rollback()
         .block({
-          height: 767430,
+          height: 1,
           hash: '0x163de66dc9c0949905bfe8e148bde04600223cf88d19f26fdbeba1d6e6fa0f88',
           timestamp: 1676913207,
         })

@@ -34,7 +34,7 @@ import { normalizedHexString } from '../api/util/helpers';
 import { BlockCache } from './block-cache';
 
 export const MIGRATIONS_DIR = path.join(__dirname, '../../migrations');
-const ORDINALS_GENESIS_BLOCK = 767430;
+const ORDINALS_GENESIS_BLOCK = 1;
 export const INSERT_BATCH_SIZE = 3500;
 
 type InscriptionIdentifier = { genesis_id: string } | { number: number };

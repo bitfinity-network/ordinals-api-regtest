@@ -13,8 +13,8 @@ export function up(pgm: MigrationBuilder): void {
     block_height: {
       type: 'bigint',
       notNull: true,
-      // Set block height 767430 (inscription #0 genesis) as default.
-      default: 767430,
+      // Set block height 1 (inscription #0 genesis) as default.
+      default: 1,
     },
   });
   pgm.addConstraint('chain_tip', 'chain_tip_one_row', 'CHECK(id)');
